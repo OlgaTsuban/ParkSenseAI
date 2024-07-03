@@ -34,6 +34,7 @@ ParkSense-AI is a web application designed to automate the detection of vehicle 
 | [Tensorflow](https://www.tensorflow.org/guide/tensor)| Machine learning   |
 | [OpenCV](https://docs.opencv.org/4.x/)               | Computer vision    |
 | [Easyocr](https://github.com/JaidedAI/EasyOCR)       | Optical character recognition   |
+| [Telegram](https://pypi.org/project/python-telegram-bot/)| Telegram bot |
 
 
 ---
