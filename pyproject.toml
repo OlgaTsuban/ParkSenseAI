@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "parksense-ai"
+version = "0.1.0"
+description = ""
+authors = ["Maksim Nesterovskyi <maxwel842@gmail.com>", "Yuliia Didenko <yu_lyan@ukr.net>",
+           "Bogdan Sikan <sikanbog@gmail.com>", "Olga Tsuban <tsubanolga@gmail.com>",
+           "Yaroslav Vdovenko <hedgy85@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.2"
+fastapi = "0.108.0"
+sqlalchemy = "^2.0.29"
+python-multipart = "^0.0.9"
+cloudinary = "^1.40.0"
+alembic = "^1.13.1"
+asyncpg = "^0.29.0"
+python-jose = "^3.3.0"
+pydantic-settings = "^2.2.1"
+aiohttp = "^3.9.5"
+bcrypt = "^4.1.3"
+passlib = "^1.7.4"
+requests = "^2.31.0"
+uvicorn = {extras = ["standard"], version = "0.25.0"}
+pydantic = {extras = ["email"], version = "^2.7.1"}
+asynctempfile = "^0.5.0"
+fastapi-mail = "^1.4.1"
+jinja2 = "^3.1.4"
+python-telegram-bot = "^21.3"
+flask = "^3.0.3"
+
+
+[tool.poetry.group.tg.dependencies]
+aiogram = "^3.5.0"
+aiohttp = "^3.9.5"
+sqlalchemy = "^2.0.29"
+
+[tool.poetry.group.nn.dependencies]
+matplotlib = "^3.8.4"
+asynctempfile = "^0.5.0"
+keras = "2.15.0"
+opencv-python-headless = "^4.9.0.80"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
